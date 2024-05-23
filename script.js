@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const timeTakenDisplay = document.getElementById('time-taken');
     
     let questions = [
-        { image: '/img/jpg.jpg', options: ['Opción 1', 'Opción 2', 'Opción 3', 'Opción 4'], correct: 1 },
+        { image: './img/jpg.jpg', options: ['Opción 1', 'Opción 2', 'Opción 3', 'Opción 4'], correct: 1 },
         { image: 'image2.jpg', options: ['Opción 1', 'Opción 2', 'Opción 3', 'Opción 4'], correct: 3 },
         // Agrega más preguntas según sea necesario
     ];
