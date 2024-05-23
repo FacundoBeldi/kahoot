@@ -1,0 +1,95 @@
+:root{
+    --button-color: #4CC9F0;
+    --font-color: #3A0CA3;
+    --border-color: #3F37C9;
+    --options-color: #F72585;
+}
+
+h1{
+    color: var(--font-color);
+}
+
+.scanf{
+    color: var(--font-color);
+    background-color: #fff;
+    text-transform: capitalize;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border-color: var(--border-color);
+    font-weight: 600;
+}
+
+.start{
+    color: var(--font-color);
+    background-color: var(--button-color);
+    text-transform: uppercase;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border-color: var(--border-color);
+    font-weight: 600;
+}
+
+.logo{
+    border-radius: 50%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(./img/background.jpg);
+}
+
+#start-screen {
+    text-align: center;
+    font-family: "Caveat", cursive;
+}
+
+.screen {
+    text-align: center;
+    display: none;
+}
+
+.screen.visible {
+    display: block;
+}
+
+#quiz-screen img {
+    width: 50%;
+    height: auto;
+}
+
+#options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+}
+
+.option {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: var(--options-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #0056b3;
+}
+
+#next-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}

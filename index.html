@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--GoogleFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="start-screen" class="screen">
+        <img class="logo" src="/img/logo.png">
+        <h1>Bienvenido al Quiz</h1>
+        <input class="scanf" type="text" id="username" placeholder="Ingresa tu nombre">
+        <button class="start" id="start-button">Comenzar</button>
+    </div>
+    <div id="quiz-screen" class="screen hidden">
+        <img id="question-image" src="" alt="Pregunta">
+        <h2></h2>
+        <div id="options">
+            <button class="option" data-option="0"></button>
+            <button class="option" data-option="1"></button>
+            <button class="option" data-option="2"></button>
+            <button class="option" data-option="3"></button>
+        </div>
+        <div id="next-button" class="hidden">Siguiente</div>
+    </div>
+    <div id="result-screen" class="screen hidden">
+        <h1>Resultado</h1>
+        <p id="score"></p>
+        <p id="time-taken"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
