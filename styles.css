@@ -3,6 +3,14 @@
     --font-color: #3A0CA3;
     --border-color: #3F37C9;
     --options-color: #F72585;
+    --options-hover: #b42364;
+}
+
+#question-text{
+    color: var(--font-color);
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
 }
 
 h1{
@@ -76,10 +84,13 @@ body {
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5%;
 }
 
 .option:hover {
-    background-color: #0056b3;
+    background-color: var(--options-hover);
+    transition: .2s;
+    font-weight: 600;
 }
 
 #next-button {
