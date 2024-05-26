@@ -8,10 +8,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const questionImage = document.getElementById('question-image');
     const scoreDisplay = document.getElementById('score');
     const timeTakenDisplay = document.getElementById('time-taken');
-    
+    const questionText = document.getElementById('question-text');
+
     let questions = [
-        { image: './img/jpg.jpg', options: ['Opción 1', 'Opción 2', 'Opción 3', 'Opción 4'], correct: 1 },
-        { image: 'image2.jpg', options: ['Opción 1', 'Opción 2', 'Opción 3', 'Opción 4'], correct: 3 },
+        { image: './img/jpg.jpg', question: 'Como se llama?', options: ['Opción 1', 'Opción 2', 'Opción 3', 'Opción 4'], correct: 1 },
+        { image: 'image2.jpg', question: 'donde fue', options: ['Opción 1', 'Opción 2', 'Opción 3', 'Opción 4'], correct: 3 },
         // Agrega más preguntas según sea necesario
     ];
 
@@ -37,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function showQuestion() {
         const question = questions[currentQuestionIndex];
         questionImage.src = question.image;
+        questionText.textContent = question.question;
         options.forEach((button, index) => {
             button.textContent = question.options[index];
             button.onclick = () => checkAnswer(index);
