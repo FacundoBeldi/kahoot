@@ -1,0 +1,122 @@
+:root{
+    --button-color: #4CC9F0;
+    --font-color: #3A0CA3;
+    --border-color: #3F37C9;
+    --options-color: #F72585;
+    --options-hover: #b42364;
+}
+
+#question-text{
+    color: var(--font-color);
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+h1{
+    color: var(--font-color);
+}
+
+.scanf{
+    color: var(--font-color);
+    background-color: #fff;
+    text-transform: capitalize;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border-color: var(--border-color);
+    font-weight: 600;
+}
+
+.start{
+    color: var(--font-color);
+    background-color: var(--button-color);
+    text-transform: uppercase;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border-color: var(--border-color);
+    font-weight: 600;
+}
+
+.logo{
+    border-radius: 50%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(./img/background.jpg);
+}
+
+#start-screen {
+    text-align: center;
+    font-family: "Caveat", cursive;
+}
+
+.screen {
+    text-align: center;
+    display: none;
+}
+
+.screen.visible {
+    display: block;
+}
+
+#options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+}
+
+.option {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: var(--options-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.option:hover {
+    background-color: var(--options-hover);
+    transition: .2s;
+    font-weight: 600;
+}
+
+#next-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#question-image{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 7px solid var(--border-color);
+}
+
+#result-header{
+    color: var(--font-color);
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#score{
+    color: var(--options-color);
+    font-size: 2rem;
+    font-weight: 600;
+}
