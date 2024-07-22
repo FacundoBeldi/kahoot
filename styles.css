@@ -101,11 +101,20 @@ body {
 }
 
 #question-image{
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     object-fit: cover;
     border-radius: 10px;
     border: 7px solid var(--border-color);
+    background-color: var(--border-color);
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ajusta según el diseño específico */
+    width: 100%;  /* Ajusta según el diseño específico */
 }
 
 #result-header{

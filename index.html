@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--*Sweet Alert-->
      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--*Descripcion-->
+    <meta name="description" content="¿Estas preparado?">
     <!--*GoogleFonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +25,9 @@
         <button class="start" id="start-button">Comenzar</button>
     </div>
     <div id="quiz-screen" class="screen hidden">
-        <img id="question-image" src="" alt="Pregunta">
+        <div class="image-container">
+            <img id="question-image" src="" alt="Pregunta">
+        </div>
         <h2 id="question-text"></h2>
         <div id="options">
             <button class="option" data-option="0"></button>

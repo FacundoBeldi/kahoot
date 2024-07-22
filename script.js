@@ -29,6 +29,10 @@ document.addEventListener('DOMContentLoaded', () => {
         { image: './img/jpg10.jpg', question: '¿De que año es esta fotografía?', options: ['1994', '1992', '1996', '1990'], correct: 1 },
         { image: './img/jpg11.jpg', question: '¿Que mes se casaron Mami y Papi?', options: ['Marzo', 'Agosto', 'Octubre', 'Noviembre'], correct: 3 },
         { image: './img/jpg12.jpg', question: '¿Cuantas especies de hipopotamos existen?', options: ['2', '6', '12', '18'], correct: 0 },
+        { image: './img/jpg13.jpg', question: '¿Como se llama la cuadra de Aranjuez donde vivíamos?', options: ['Castellana', 'Bartolomé de las Casas', 'Arturo Frondizi', 'Bernardo Irigoyen'], correct: 1 },
+        { image: './img/jpg14.png', question: '¿En que mes cumple años Lorenzo (hijo de Flor)?', options: ['Octubre', 'Noviembre', 'Septiembre', 'Agosto'], correct: 2 },
+        { image: './img/jpg15.png', question: '¿En que año abrió La Volcan?', options: ['1957', '1959', '1962', '1976'], correct: 0 },
+        { image: './img/jpg16.png', question: '¿Donde estudió Santiago?', options: ['CAEAN', 'CIC', 'UACA', 'UNSEM'], correct: 1 },
     ];
 
     let currentQuestionIndex = 0;
@@ -55,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         Swal.fire({
             icon: "warning",
-            title: "¡Cuidado!",
+            title: "Empezamos pero... ¡Cuidado!",
             text: "Una vez elegida una opción, no se podrá modificar",
             confirmButtonText: "OK"
         }).then((result) => {
