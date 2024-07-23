@@ -101,7 +101,7 @@ body {
 }
 
 #question-image{
-    width: 450px;
+    width: 360px;
     height: 450px;
     object-fit: cover;
     border-radius: 10px;
