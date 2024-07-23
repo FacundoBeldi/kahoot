@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { image: './img/jpg14.png', question: '¿En que mes cumple años Lorenzo (hijo de Flor)?', options: ['Octubre', 'Noviembre', 'Septiembre', 'Agosto'], correct: 2 },
         { image: './img/jpg15.png', question: '¿En que año abrió La Volcan?', options: ['1957', '1959', '1962', '1976'], correct: 0 },
         { image: './img/jpg16.png', question: '¿Donde estudió Santiago?', options: ['CAEAN', 'CIC', 'UACA', 'UNSEM'], correct: 1 },
-        { image: './img/jpg18.jpg', question: '¿Como se llamaba la quinta de Cardales?', options: ['Sotomayor', 'San Jorge', 'Cordillera', 'Pehumayen'], correct: 3 },
+        { image: './img/cardales.jpg', question: '¿Como se llamaba la quinta de Cardales?', options: ['Sotomayor', 'San Jorge', 'Cordillera', 'Pehumayen'], correct: 3 },
         { image: './img/jpg19.jpg', question: '¿Como se llamaba esta panchería?', options: ['Pehuamar', 'Bristol', 'Lo de Tito', 'Pompeya'], correct: 1 },
         { image: './img/final.jpg', question: 'Por último... ¿Cual era el nombre de este gato?', options: ['Tinte', 'Menzo', 'Boris', 'Tomás'], correct: 2 },
     ];
