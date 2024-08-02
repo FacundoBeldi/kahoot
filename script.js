@@ -35,7 +35,12 @@ document.addEventListener('DOMContentLoaded', () => {
         { image: './img/jpg16.png', question: '¿Donde estudió Santiago?', options: ['CAEAN', 'CIC', 'UACA', 'UNSEM'], correct: 1 },
         { image: './img/cardales.jpg', question: '¿Como se llamaba la quinta de Cardales?', options: ['Sotomayor', 'San Jorge', 'Cordillera', 'Pehumayen'], correct: 3 },
         { image: './img/jpg19.jpg', question: '¿Como se llamaba esta panchería?', options: ['Pehuamar', 'Bristol', 'Lo de Tito', 'Pompeya'], correct: 1 },
-        { image: './img/final.jpg', question: 'Por último... ¿Cual era el nombre de este gato?', options: ['Tinte', 'Menzo', 'Boris', 'Tomás'], correct: 2 },
+        { image: './img/final.jpg', question: '¿Cual era el nombre de este gato?', options: ['Tinte', 'Menzo', 'Boris', 'Tomás'], correct: 2 },
+        { image: './img/pos21.PNG', question: '¿Como se llaman estos animales que yo tenía?', options: ['Gecko', 'Salamandra', 'Axolote', 'Gallipato'], correct: 3 },
+        { image: './img/pos22.PNG', question: '¿Que nombre le dieron al recorrido que hizo Papi por la ruta 40?', options: ['Travesia 160', 'Coyote', 'Operación Retorno', 'Recorrido Cuarto'], correct: 0 },
+        { image: './img/pos23.PNG', question: '¿Como se llamaba la degustación de Vino que realizaba Mami y Rosana?', options: ['En el Viento', 'Paraíso', 'El Presente', '4 Sentidos'], correct: 3 },
+        { image: './img/pos24.PNG', question: '¿Donde fue tomada esta fotografía?', options: ['Cerro Colorado', 'Cerro Pedroso', 'Cerro Champaqui', 'Cerro Curruhinca'], correct: 2 },
+        { image: './img/pos25.PNG', question: 'Por último... ¿Con que compañero de Aranjuez me recibí?', options: ['Maxi', 'Tomi', 'Juanchi', 'Fran'], correct: 0 },
     ];
 
     let currentQuestionIndex = 0;
